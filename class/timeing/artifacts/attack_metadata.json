@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract float",
+						"name": "_add",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes2",
+						"name": "c",
+						"type": "bytes2"
+					}
+				],
+				"name": "a",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "float1",
+				"outputs": [
+					{
+						"internalType": "contract float",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"class/timeing/knowledgePoint.sol": "attack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"class/timeing/knowledgePoint.sol": {
+			"keccak256": "0xcbbc584218351b409743cd1520421562bcad28fe973414ff96c69ca43fafcf7c",
+			"urls": [
+				"bzz-raw://9f98cf3aaaf4d99894deaf8a1a01691c63197681fbe0b03b9d6c2944d9e3a64d",
+				"dweb:/ipfs/QmSW2GgQgVuJ3MLfZKuC1JYkJbHpbPb5AED4JZwQjuvTMT"
+			]
+		}
+	},
+	"version": 1
+}

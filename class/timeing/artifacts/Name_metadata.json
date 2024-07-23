@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"class/timeing/knowledgePoint.sol": "Name"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"class/timeing/knowledgePoint.sol": {
+			"keccak256": "0x7b011f320a14843ce54ac33eb6e522909885aee4b642f9c8c7104277632db762",
+			"urls": [
+				"bzz-raw://a226771cc8a6fcde17334c01fb16315db056097c4d3cf9092f2318a69e9988b4",
+				"dweb:/ipfs/QmeZ5tcmrD4SNA2XvpNEZ7Ufkkv5fzQ4zDztEEpg8oTdZE"
+			]
+		}
+	},
+	"version": 1
+}

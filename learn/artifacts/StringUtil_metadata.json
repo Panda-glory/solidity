@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "str2",
+						"type": "string"
+					}
+				],
+				"name": "compare",
+				"outputs": [
+					{
+						"internalType": "enum StringUtil.CompareResult",
+						"name": "",
+						"type": "StringUtil.CompareResult"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/StringUtil.sol": "StringUtil"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/StringUtil.sol": {
+			"keccak256": "0xebc742d986a7345b9b1b020ca6617bcd1fba676ae97cbc7fde291dfd40f3d30f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://02dcf38089caa92a81008a571c4020a87ef5947fced57c4426b06923ab371a0e",
+				"dweb:/ipfs/QmX2ncSZ5WdvmwV5C9f6z2br175JZ4w8scXC4qFYVYymN7"
+			]
+		}
+	},
+	"version": 1
+}

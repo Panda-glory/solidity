@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "shift1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "shift2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"class/溢出/3.sol": "DemoContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"class/溢出/3.sol": {
+			"keccak256": "0x5a62c37ccd142be359b65aaa0bf726c2c73bf5c7d1dc30d94fba6fa9a0d88712",
+			"urls": [
+				"bzz-raw://92e88a2eada9da3dfaec2113e5fbecf0159dc54de04090a6b8f5061b91ef0210",
+				"dweb:/ipfs/QmXhuU5Sm9c9HudKte2M5YhrYWMrkHfQMKuz2LjCSYxRCz"
+			]
+		}
+	},
+	"version": 1
+}

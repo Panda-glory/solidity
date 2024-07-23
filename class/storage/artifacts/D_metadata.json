@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "slot",
+						"type": "uint256"
+					}
+				],
+				"name": "getStorageAt",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "ret",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "slot",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "data",
+						"type": "uint256"
+					}
+				],
+				"name": "setStorageAt",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "ret",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"class/storage/test1.sol": "D"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"class/storage/UseStorage.sol": {
+			"keccak256": "0xdeb543fdcbfd0104abe50b8a21c1b0ad19cfa5f5204cbd61ecf8e3910e2238dc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f3b7fca0cc7b5513556c31f5295fec59e292a5e560cc90fb4b3738367e62f076",
+				"dweb:/ipfs/QmNkMHggQ2ZS1L2AiYMGrv2UXJ7d2W2Y7mZC9zPXAybN66"
+			]
+		},
+		"class/storage/test1.sol": {
+			"keccak256": "0x00056e3acd97a03f47b89b5ce22f1a2b5e0827220a7bc7c4492cfdc646b52902",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e98e87fe31efe99ae0245bf9e4db46cfc8b766e1be627cd0bc5b1f8c14848f81",
+				"dweb:/ipfs/QmcML4gUi91AsTo8SKrLui62aa9u1jyPf3nG7Mn2joEhxE"
+			]
+		}
+	},
+	"version": 1
+}

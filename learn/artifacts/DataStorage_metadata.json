@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_x",
+						"type": "uint256[]"
+					}
+				],
+				"name": "fCalldata",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/05DataStorage.sol": "DataStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/05DataStorage.sol": {
+			"keccak256": "0x6434baba7ddfe489bfe0d24768fa8a0515af91059d26ce5322b69dab723bfc90",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://080348039f1a9630ddf1e564c6ea9ce7edbcb73a794516c4427a546cb76fd7eb",
+				"dweb:/ipfs/QmTPDfbtHc8GXzeRvdt4cZSwi1kw8psZqdQcaUGkiDTDvN"
+			]
+		}
+	},
+	"version": 1
+}

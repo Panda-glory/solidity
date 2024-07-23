@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"class/storage/house.sol": "A"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"class/storage/house.sol": {
+			"keccak256": "0x1c74ce2d8731b5c666d91d7260592c1003bd6cbc21a5ef474edc25d5e80ad332",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3313ff7ec33849ec3a861e8665d9cb510eec08e5b1810199b87b8435587ee635",
+				"dweb:/ipfs/QmZAArZxT8UQmJPfVUVMBDJroejkv7X2WduTCc1DiUnMak"
+			]
+		}
+	},
+	"version": 1
+}

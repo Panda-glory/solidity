@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shijian/zhangpan1.sol": "ZP"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shijian/zhangpan1.sol": {
+			"keccak256": "0x13e34dcf04a7457b3bcbeed7f06bda1a70973ad3249cbe20f42c4e074bdb0529",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b7c010844336122173f57110882a3583e06675521629870a19ba9a632cfb8685",
+				"dweb:/ipfs/QmXvmKma4ULJi8k8a5p29SgRNmPBLaZ9C7tqdWAiAWwTCX"
+			]
+		}
+	},
+	"version": 1
+}

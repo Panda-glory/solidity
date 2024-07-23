@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Mybid",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/TInySolidity.sol": "TinyAuction"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/TInySolidity.sol": {
+			"keccak256": "0x01086951d42179f8877fa607f4d32dcb1eaeea22566a344cab114ade6b88b7c2",
+			"urls": [
+				"bzz-raw://af359852d88c4045f70a15bc7d33cff298763c4b9acf66d3e3a8a09cee8fd11a",
+				"dweb:/ipfs/QmZHe5GrJ7LsYo5W9L4LKzetPv2rETU1JMdjCpGyczpG5c"
+			]
+		}
+	},
+	"version": 1
+}

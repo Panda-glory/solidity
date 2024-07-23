@@ -1,0 +1,80 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052600a600055348015601457600080fd5b5060618060226000396000f3fe608060405260043610601c5760003560e01c8063ed9eabe0146021575b600080fd5b60276029565b005b56fea26469706673582212204b5579a628b5920d7ef250ab1132faa35cebb773e1a8f473946d1434fb85648a64736f6c63430008110033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0xA PUSH1 0x0 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x14 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x61 DUP1 PUSH1 0x22 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x1C JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xED9EABE0 EQ PUSH1 0x21 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x27 PUSH1 0x29 JUMP JUMPDEST STOP JUMPDEST JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4B SSTORE PUSH26 0xA628B5920D7EF250AB1132FAA35CEBB773E1A8F473946D1434FB DUP6 PUSH5 0x8A64736F6C PUSH4 0x43000811 STOP CALLER ",
+			"sourceMap": "224:122:0:-:0;;;261:2;252:11;;224:122;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@Mybid_8": {
+					"entryPoint": 41,
+					"id": 8,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "608060405260043610601c5760003560e01c8063ed9eabe0146021575b600080fd5b60276029565b005b56fea26469706673582212204b5579a628b5920d7ef250ab1132faa35cebb773e1a8f473946d1434fb85648a64736f6c63430008110033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x1C JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xED9EABE0 EQ PUSH1 0x21 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x27 PUSH1 0x29 JUMP JUMPDEST STOP JUMPDEST JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4B SSTORE PUSH26 0xA628B5920D7EF250AB1132FAA35CEBB773E1A8F473946D1434FB DUP6 PUSH5 0x8A64736F6C PUSH4 0x43000811 STOP CALLER ",
+			"sourceMap": "224:122:0:-:0;;;;;;;;;;;;;;;;;;;;;271:72;;;:::i;:::-;;;:::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "19400",
+				"executionCost": "22181",
+				"totalCost": "41581"
+			},
+			"external": {
+				"Mybid()": "98"
+			}
+		},
+		"methodIdentifiers": {
+			"Mybid()": "ed9eabe0"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"name": "Mybid",
+			"outputs": [],
+			"stateMutability": "payable",
+			"type": "function"
+		}
+	]
+}

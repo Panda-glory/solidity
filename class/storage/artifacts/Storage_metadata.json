@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "slot",
+						"type": "uint256"
+					}
+				],
+				"name": "getStorageAt",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "ret",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"class/storage/UseStorage.sol": "Storage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"class/storage/UseStorage.sol": {
+			"keccak256": "0xdeb543fdcbfd0104abe50b8a21c1b0ad19cfa5f5204cbd61ecf8e3910e2238dc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f3b7fca0cc7b5513556c31f5295fec59e292a5e560cc90fb4b3738367e62f076",
+				"dweb:/ipfs/QmNkMHggQ2ZS1L2AiYMGrv2UXJ7d2W2Y7mZC9zPXAybN66"
+			]
+		}
+	},
+	"version": 1
+}

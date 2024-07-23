@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "abort",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "seller",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/TInySolidity.sol": "MyPurchase"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/TInySolidity.sol": {
+			"keccak256": "0x3b053c12ad617db2a7d1071bae450f2050b3148fd1e232c5de53ae1d257a7290",
+			"urls": [
+				"bzz-raw://0ddeed6ce598bdec785d80d532f0e559f133e5047f27bd81b0f373a3fedeba96",
+				"dweb:/ipfs/Qmc7bNTM2XoJ3WXXbBJn3KDJwjYtUUFrsB5T9RZkjAN9Zg"
+			]
+		}
+	},
+	"version": 1
+}
